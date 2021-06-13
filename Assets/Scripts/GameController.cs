@@ -259,7 +259,7 @@ public class GameController : MonoBehaviourPunCallbacks
                 {
                     Dictionary<string, object> score = new Dictionary<string, object>
                 {
-                    { "score", GetScore() },
+                    { "value", GetScore() },
                     { "nickName", player.NickName },
                     { "gameId", "ElectricCharge" },
                     { "gameSessionId", gameSessionId },
