@@ -131,6 +131,9 @@ PlayerSettings:
   preloadedAssets:
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: -7499215247647969277, guid: f374f2541ed4e0043b0d38824e9af1f5, type: 2}
+  - {fileID: 4800000, guid: c9f956787b1d945e7b36e0516201fc76, type: 3}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -148,7 +151,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.DefaultCompany.ElectricCharge
+    Android: com.relz.ElectricCharge
     Standalone: com.DefaultCompany.Bugs
   buildNumber:
     Standalone: 0
@@ -256,8 +259,8 @@ PlayerSettings:
     banner: {fileID: 0}
   androidGamepadSupportLevel: 0
   AndroidMinifyWithR8: 0
-  AndroidMinifyRelease: 0
-  AndroidMinifyDebug: 0
+  AndroidMinifyRelease: 1
+  AndroidMinifyDebug: 1
   AndroidValidateAppBundleSize: 1
   AndroidAppBundleSizeToValidate: 150
   m_BuildTargetIcons: []
